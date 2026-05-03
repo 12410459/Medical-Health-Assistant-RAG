@@ -11,9 +11,9 @@ langchain-openai
 torch
 torchvision
 
-chromadb==0.3.29
-protobuf==4.23.3
+chromadb
+protobuf
 sentence-transformers
 
 opentelemetry-sdk
-opentelemetry-exporter-otlp-proto-grpc==1.15.0
+opentelemetry-exporter-otlp-proto-grpc
