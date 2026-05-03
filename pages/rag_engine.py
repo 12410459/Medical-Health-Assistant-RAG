@@ -30,7 +30,7 @@ load_dotenv()
 
 class HybridMedicalRAG:
     def __init__(self):
-        self.model_name = os.getenv("MODEL_NAME", "gpt-4o-mini")
+        self.model_name = os.getenv("MODEL_NAME", "openai/gpt-4o-mini")
         self.data_path = Path(os.getenv("DATA_PATH", "./data/raw"))
         self.db_path = Path(os.getenv("CHROMA_PATH", "./data/chroma_db"))
 

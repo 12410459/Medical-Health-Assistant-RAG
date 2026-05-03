@@ -283,6 +283,8 @@ st.markdown("""
         transform: translateX(-50%) !important;
         width: calc(100% - 48px) !important;
         max-width: 720px !important;
+        max-height: 60px !important;
+        overflow: hidden !important;
         z-index: 9998 !important;
         padding: 0 !important;
         background: transparent !important;
@@ -341,11 +343,12 @@ st.markdown("""
         cursor: pointer !important;
         transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
         flex-shrink: 0 !important;
+        overflow: visible !important;
     }
             
     div[data-testid="stForm"] button::before {
         content: '' !important;
-        position: absolute !important;
+        position: relative !important;
         width: 18px !important;
         height: 18px !important;
         background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='white' stroke-width='2'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5'/%3E%3C/svg%3E") !important;
