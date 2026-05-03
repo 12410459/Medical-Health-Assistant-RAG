@@ -3,7 +3,7 @@ python-dotenv
 
 langchain
 langchain-core
-langchain-community
+langchain-communit
 langchain-text-splitters
 langchain-chroma
 langchain-openai
@@ -11,8 +11,9 @@ langchain-openai
 torch
 torchvision
 
-chromadb
+chromadb==0.3.29
+protobuf==4.23.3
 sentence-transformers
-protobuf
-opentelemetry-api
+
 opentelemetry-sdk
+opentelemetry-exporter-otlp-proto-grpc==1.15.0
