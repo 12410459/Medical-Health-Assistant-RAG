@@ -10,10 +10,8 @@ langchain-openai
 
 torch
 torchvision
-
 chromadb
-protobuf
 sentence-transformers
 
-opentelemetry-sdk
-opentelemetry-exporter-otlp-proto-grpc
+pypdf
+docx2txt
